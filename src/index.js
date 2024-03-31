@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import PassFunctionAsProps from "./Components/PassFunctionAsProps";
+import GetSnapShotBeforeUpdate from "./Components/GetSnapShotBeforeUpdate";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-<PassFunctionAsProps></PassFunctionAsProps>
+    <GetSnapShotBeforeUpdate/>
 );
 
 

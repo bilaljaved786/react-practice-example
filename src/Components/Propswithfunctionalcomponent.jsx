@@ -4,11 +4,11 @@ import "../App.css";
 export default function Propswithfunctionalcomponent() {
   let [data, setDate] = useState({ id: 100, name: "bilal", age: 25 });
   console.log(data);
+
   return (
     <div className="App">
       Propswithfunctionalcomponent
       <Student std={data}></Student>
-      
       {/* important part */}
       <button onClick={() => setDate({ ...data, name: "javed", age: 30 })}>
         click me
@@ -29,6 +29,6 @@ function Student(props) {
 
 /**
  * passing props using functional components
- * copying the previous state and updating some of the properties og the object like that 
+ * copying the previous state and updating some of the properties og the object like that
  * setDate({ ...data, name: "javed", age: 30 })
  */

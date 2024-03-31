@@ -2,16 +2,17 @@ import React from "react";
 import "../App.css";
 
 function EventHandling() {
-  let data = "bilal";
 
+  let data = "bilal";
   function Apple() {
+    
     /**
      * This data variable is not change in the h1 tag after button click
      * because component didnot understand that needs to be re-render
      * for that we need use states so that conponent re-render itself
      */
-
     data = "javed";
+
     alert("the data " + data);
   }
 
