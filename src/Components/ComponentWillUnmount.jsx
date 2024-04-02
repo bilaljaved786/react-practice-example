@@ -35,4 +35,5 @@ class Child extends Component {
 /**
  * when the component is removed from the DOM, at that time componentWillUnmount method will call
  * When we hide [display:none] the component, then it means the component completely remove from the DOM
+ * ComponentWillUnmount will be called, just before the component completely remove from the DOM
  */

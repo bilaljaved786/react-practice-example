@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import GetSnapShotBeforeUpdate from "./Components/GetSnapShotBeforeUpdate";
+import ArrayListingWithMap from "./Components/ArrayListingWithMap";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <GetSnapShotBeforeUpdate/>
+    <ArrayListingWithMap/>
 );
 
 
