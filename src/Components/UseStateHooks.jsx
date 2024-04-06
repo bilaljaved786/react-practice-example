@@ -9,6 +9,9 @@ export default function UseStateHooks() {
       <h1>Use State Hooks</h1>
       <h2>Count is : {count}</h2>
       <button onClick={() => setCount(count + 1)}>Click</button>
+
+      {/* get prev value and update 1 into it */}
+      {/* <button onClick={() => setCount((prev) => prev + 1)}>Click</button> */}
     </div>
   );
 }

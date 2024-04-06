@@ -41,3 +41,7 @@ export default function ArrayListingWithMap() {
     </div>
   );
 }
+
+/**
+ * inside the return statement (map function) support only to render the array of object
+ */
