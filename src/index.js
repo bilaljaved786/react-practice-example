@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import ForwardRef from "./Components/ForwardRef";
+import HOC from "./Components/HOC";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<ForwardRef />);
+root.render(<HOC />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

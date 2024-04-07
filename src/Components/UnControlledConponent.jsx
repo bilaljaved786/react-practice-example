@@ -1,19 +1,24 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import "../App.css";
 
-export default function ControlledComponent() {
-  const [name, setName] = useState();
-  const HandleChange = (event) => setName(event.target.value);
+export default function UnControlledConponent() {
+  // define useRef proeprty for input field
+  const inputRef = useRef(null);
+
+  //function to get the value of input field
+  const GetInputValue = () => {
+    console.log("the input value is", inputRef.current.value);
+  };
 
   return (
     <div className="App">
-      <h1>Controlled Component</h1>
+      <h1>Un-Controlled Conponent</h1>
       <input
         type="text"
+        ref={inputRef}
         placeholder="enter your name"
-        onChange={HandleChange}
-      />
-      <h2>Name : {name} </h2>
+      /> <br /> <br />
+      <button onClick={GetInputValue}>click</button>
     </div>
   );
 }
