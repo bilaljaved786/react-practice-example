@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import HOC from "./Components/HOC";
+import StateWithObject from "./Components/StateWithObject";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HOC />);
+root.render(<StateWithObject />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
